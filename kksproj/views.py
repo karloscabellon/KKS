@@ -13,6 +13,8 @@ def index(request):
 def create(request):
     return render(request, "create.html")
 
+def text(request):
+    return render(request, "text.html") 
 
 def textedit(request):
     if request.method == "POST":
